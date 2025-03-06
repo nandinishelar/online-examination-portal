@@ -1,0 +1,102 @@
+
+body{
+    /* background-color: #200e25; */
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+}
+.container{
+    background-image: url('bgimg.jpg');
+    background-size: cover;
+}
+form{
+    margin-top: 150px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+#linput , #sinput{
+    width: 100%;
+    padding: 10px 5px 5px 0;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 0 10px #ccc;
+    /* background-color: transparent;  */
+    
+}
+#llogin , #lsignup{
+    margin-top: 10px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #040341;
+    color: white;
+    cursor: pointer;
+   
+}
+#lsignup{
+    margin-top: 10px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #040341;
+    color: white;
+    cursor: pointer;
+}
+
+    
+   
+
+#lnoac{
+    margin-top: 10px;
+    width: 50%;
+    padding: 10px;
+    font-size: small;
+    border: none;
+    color:rgb(194, 7, 7);
+    cursor: pointer;
+}
+#lsignup:hover{
+    background-color: #043122;
+}
+#welcome{
+    text-align: center;
+    width: 100%;
+    color: #040341;
+    display: inline-block;
+    /* margin:30PX 30PX 30PX 450PX; */
+}
+#startTest{
+    width: 30%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #040341;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    margin:200px 650px 20px 20px;
+    display: flex;
+}
+#starttesttxt{
+    text-align: center;
+    color: #040341;
+    font-size: medium;
+    margin-left: 0px;
+    display: inline-block;
+}
+.hologin{
+    display: flex;
+    justify-content: center;
+}
+
+
