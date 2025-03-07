@@ -1,0 +1,100 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #014751;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            /* background-color: #f8f9fa; */
+            /* border-bottom: 1px solid #e0e0e0; */
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            /* margin: 0; */
+            padding: 0;
+
+            margin: 20px 20px 0 10px;
+
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px 0 10px;
+            padding: 2px 5px 5px 5px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background: transparent;
+            padding: 10px;
+            border: 1px solid #050505;
+            ;
+            border-radius: 5px;
+            box-shadow: 0 0 10px #1e1e1f;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+          
+        }
+       .section1 h1 {
+            margin: 70px 0 0 20px;
+            color: rgb(6, 232, 240);
+           
+         }
+         .section1 p{
+                color:white;
+                margin: 6px 0 0 45px;
+         }
+         .section1 button{
+            padding: 15px;
+            border-radius: 5px;
+            border: none;
+            background-color: #008db1;
+            color: white;
+            cursor: pointer;
+            display: inline-block;
+            margin: 20px 0 0 60px;
+            display: flex;
+            font-size: large;
+         }
+         .section1 img{
+                margin: 0 0 0 0;
+                width: 5%;
+                
+         }
+         /* .logo img{
+                margin: 25px 0 0 30px;
+                width: 150%;
+                height: 110px;
+         } */
+          footer {
+            background-color: #676869;
+            color: #050505;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            border-top: 0.5px solid #e0e0e0;
+          }
+          .aboutus{
+            margin: 0 0 0 20px;
+            color: white;
+          }
